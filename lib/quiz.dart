@@ -14,6 +14,7 @@ class Quiz extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         SizedBox(
           height: MediaQuery.of(context).size.height / 5,
